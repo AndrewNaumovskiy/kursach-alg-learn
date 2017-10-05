@@ -1,0 +1,14 @@
+D:\2 курс\АтСД\kursach\kursach\bin\Debug\kursach.exe.config
+D:\2 курс\АтСД\kursach\kursach\bin\Debug\kursach.exe
+D:\2 курс\АтСД\kursach\kursach\bin\Debug\kursach.pdb
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.csprojResolveAssemblyReference.cache
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.Form1.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.Properties.Resources.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.csproj.GenerateResource.Cache
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.csproj.CoreCompileInputs.cache
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.exe
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.pdb
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.Form2_Alg.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.Form3_Data.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.Alg_Sort.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.alg.sort.Bubble_Sort.resources
