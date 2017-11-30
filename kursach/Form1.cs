@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing.Text;
+using System.Net;
+using System.IO;
 
 namespace kursach
 {
@@ -18,19 +19,12 @@ namespace kursach
         {
             InitializeComponent();
 
-            
-
-            PrivateFontCollection privateFontCollection = new PrivateFontCollection();
-            privateFontCollection.AddFontFile("arial.ttf");
-            Font f = new Font(privateFontCollection.Families[0], 18);
-
-            Label title = new Label();
-            title.Location = new Point(150-35,10);
-            title.Text = "keks";
-            title.Font = f;
-            
-            Controls.Add(title);
-
+            Button down = new Button();
+            down.Location = new Point(0, 0);
+            down.Size = new Size(25, 25);
+            down.Text = "Download";
+            down.Click += new EventHandler(this.down_Click);
+            Controls.Add(down);
 
             Button alg = new Button();
             alg.Location = new Point(150 - 125 - 7, 50);
@@ -60,7 +54,11 @@ namespace kursach
             form3.Show();
             form3.Location = new Point(150, 155);
         }
-
+        private void down_Click(object sender, EventArgs e)
+        {
+            WebClient webclient = new WebClient();
+            webclient.DownloadFile(new Uri("https://andrewnaumovskiy.github.io/Program.cs"), @"C:\Users\Andrew\Downloads\Program.cs");
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             Location = new Point(0, 0);

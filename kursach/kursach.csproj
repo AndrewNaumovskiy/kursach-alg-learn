@@ -45,17 +45,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="alg\Alg_Sort.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="alg\Alg_Sort.Designer.cs">
-      <DependentUpon>Alg_Sort.cs</DependentUpon>
-    </Compile>
     <Compile Include="alg\sort\Bubble_Sort.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="alg\sort\Bubble_Sort.Designer.cs">
       <DependentUpon>Bubble_Sort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alg\sort\Heap_Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alg\sort\Heap_Sort.Designer.cs">
+      <DependentUpon>Heap_Sort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alg\sort\Insert_Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alg\sort\Insert_Sort.Designer.cs">
+      <DependentUpon>Insert_Sort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data\Non_Wei_Gr.cs" />
+    <Compile Include="data\Non_Wei_Gr.Designer.cs">
+      <DependentUpon>Non_Wei_Gr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data\Tree.cs" />
+    <Compile Include="data\Tree.Designer.cs">
+      <DependentUpon>Tree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data\Wei_Gr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="data\Wei_Gr.Designer.cs">
+      <DependentUpon>Wei_Gr.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -77,11 +97,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="alg\Alg_Sort.resx">
-      <DependentUpon>Alg_Sort.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="alg\sort\Bubble_Sort.resx">
       <DependentUpon>Bubble_Sort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alg\sort\Heap_Sort.resx">
+      <DependentUpon>Heap_Sort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alg\sort\Insert_Sort.resx">
+      <DependentUpon>Insert_Sort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\Non_Wei_Gr.resx">
+      <DependentUpon>Non_Wei_Gr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\Tree.resx">
+      <DependentUpon>Tree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\Wei_Gr.resx">
+      <DependentUpon>Wei_Gr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -10,5 +10,9 @@ D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.exe
 D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.pdb
 D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.Form2_Alg.resources
 D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.Form3_Data.resources
-D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.Alg_Sort.resources
 D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.alg.sort.Bubble_Sort.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.alg.sort.Insert_Sort.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.data.Wei_Gr.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.data.non_WeightedGraph.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.data.BinaryTree.resources
+D:\2 курс\АтСД\kursach\kursach\obj\Debug\kursach.alg.sort.Heap_Sort.resources
